@@ -8,7 +8,7 @@ This project provides a template for a Discord bot. For help with hosting this b
 |------------------|-------------------------------------------------------------------------------------------|
 | !about           | Info on how to add new functionality to the TemplateBot                                   |
 | !help            | List all available commands                                                               |
-| !honour          | Display today's honour recipient (Uses GMT timings to work out the current day)           |
+| !test            | Return a generic test message                                                             |
 
 Table created with [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 

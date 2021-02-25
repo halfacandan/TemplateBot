@@ -15,7 +15,7 @@ module.exports = {
                 "fields": [             
                     {
                         "name": ":nerd:  Geek Stuff",
-                        "value": " * [View the Template Bot's node.js code](https://github.com/halfacandan/BotHosting/tree/main/Template)"
+                        "value": " * [View the Template Bot's node.js code](https://github.com/halfacandan/TemplateBot)"
                     }
                 ]
             }
@@ -26,7 +26,8 @@ module.exports = {
     ListBotCommands: async function(botAboutCommand = "about", botCommandPrefix = "!"){
 
         commands =   [
-            `**${botCommandPrefix}${botAboutCommand}** - Info on how to add new functionality to Template Bot`
+            `**${botCommandPrefix}${botAboutCommand}** - Info on how to add new functionality to Template Bot`,
+            `**${botCommandPrefix}test** - Reply with a test message`
         ]
         return commands;
     },

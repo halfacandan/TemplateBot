@@ -80,6 +80,7 @@ bot.on('message', async message => {
         case `${botCommandPrefix}test`:
             if(message.channel != null) message.channel.startTyping();
         
+            /* Example of a call to an API
             data = await api.ExampleApiCallWithAuth(jwtToken);
             if(data == null) {
                 replies.push(messages.BotError());
@@ -87,6 +88,10 @@ bot.on('message', async message => {
             }
 
             replies.push(data.message);
+            */
+
+            let testMessage = "This is a test"
+            replies.push(testMessage);
             break;
         
         default:
