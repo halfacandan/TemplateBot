@@ -1,0 +1,22 @@
+{
+    "name": "TemplateBot",
+    "description": "This is a geneic Bot Template",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/halfacandan/TemplateBot.git"
+    },
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "base64url": "^3.0.1",
+        "discord.js": "^12.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "match-all": "^1.2.6",
+        "node-fetch": "^2.6.0",
+        "request": "^2.81.0",
+        "text2png": "^2.3.0"
+    }
+}
